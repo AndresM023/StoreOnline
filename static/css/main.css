@@ -1,0 +1,10 @@
+main {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-inner {
+    border:1px solid #000;
+}

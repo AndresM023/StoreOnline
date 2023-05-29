@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h2{
+	text-align: center;
+	padding-top: 10px;
+	color: cadetblue;
+	font-size: 1.5rem;
+}
+
+span {
+	display: block;
+	text-align: center;
+	color: cadetblue;
+	font-size: 1.1rem;
+}
+.all-products{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.product{
+	background: #495261;
+	color: #21201e;
+	text-align: center;
+	width: 240px;
+	height: 400px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1rem;
+	margin: 1rem;
+
+}
+
+.product .product-title, .product .product-price{
+	font-size: 18px;
+}
+
+.product:hover img{
+	transform:  scale(1.1);
+}
+
+
+.product:hover {
+	box-shadow: -5px 10px 20px #7b7272;
+}
+
+.product img {
+	height: 200px;
+	margin: 1rem;
+	transition: all 0.6s;
+}
+
+.product a:link, .product a:visited{
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #252c2e;
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 14px;
+	transition: all 0.4s;
+}
+
+.product a:hover{
+	transform: scale(1.1);
+}
+
+@media screen and (min-width:768px) {
+
+	h2{
+	text-align: center;
+	color: cadetblue;
+	font-size: 2rem;
+	}
+
+	.products {
+		position: relative;
+		top: 30px;
+		padding-bottom: 50px;
+	}
+}

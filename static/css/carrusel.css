@@ -1,0 +1,41 @@
+.carr {
+		margin-top: 20px;
+	}
+
+.carousel-inner {
+	border: none;
+}
+.carousel-item img {
+	width: 100%;
+	object-fit: cover;
+	height: 300px;
+	}
+
+
+@media screen and (min-width: 768px) {
+
+
+.carousel-item img {
+		width: 100%;
+		object-fit: cover;
+		height: 300px;
+	}
+	.carousel-item img {
+		width: 100%;
+		object-fit: cover;
+		height: 500px;
+
+	}
+	.carousel-inner {
+		border: none;
+	}
+
+	.barra {
+		width: 100%;
+		height: 25px;
+		margin: 0;
+		background: linear-gradient(45deg,palegoldenrod,aquamarine,palegoldenrod,darkgray);
+	}
+
+}
+

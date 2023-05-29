@@ -1,0 +1,33 @@
+/*!* Google Fonts  *!*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
+
+/* Menú */
+/* Estilos generales */
+
+
+.ho .ve .r{
+  font-family: "Montserrat",sans-serif;
+  font-weight: 500;
+  transition: all .5s ease;
+  padding: 5px;
+}
+
+.ho .ve .r:hover{
+  color: #000;
+  background: rgba(56, 118, 144, 0.87);
+  border-radius: 15px;
+}
+
+.navbar-nav .nav-item{
+  padding: 0 20px;
+   text-align: center;
+
+}
+
+
+.ho {
+  background-color: #283a4b;
+
+}
+
