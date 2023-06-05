@@ -15,15 +15,10 @@
 @media screen and (min-width: 768px) {
 
 
-.carousel-item img {
-		width: 100%;
-		object-fit: cover;
-		height: 300px;
-	}
 	.carousel-item img {
 		width: 100%;
 		object-fit: cover;
-		height: 500px;
+		height: 530px;
 
 	}
 	.carousel-inner {
